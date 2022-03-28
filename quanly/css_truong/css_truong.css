@@ -1,0 +1,219 @@
+.content-wrapper{
+	/*background-color: #f5f5f5;*/
+	background-color: #e9ebee;
+}
+
+.admin_truong{
+	font-size: 17px;
+}
+
+.nhanvien_truong{
+	background: url(../images/nhanvien.png);
+	width: 280px;
+	height: 45px;
+	margin-left: 0px;
+}
+.hinhnhanvien{
+	width: 35px;
+	height: auto;
+}
+
+.muiten{
+	font-size: 10px;
+}
+.duongdan_truong{
+	background-color: yellow;
+	height: 35px;
+}
+
+.nhanvien2_truong{
+	font-size: 17px;
+	margin-top: 5px;
+	padding-top: 5px;
+	padding-left: 10px;
+}
+.hoso_truong{
+	width: 280px;
+	height: 35px;
+}
+.chucnang{
+	font-size: 13px;
+	margin-left: 15px;
+}
+.icon_xem{
+	width: 23px;
+	height: 20px;
+}
+.icon_sua{
+	
+}
+.icon_xoa{
+	width: 20px;
+	height: 20px;
+}
+.btn-success{
+	margin-bottom: 5px;
+}
+
+.modal-title{
+	font-size: 25px;
+}
+.col-md-3 .form-control{
+	width: auto;
+}
+.form-control{
+	/*Arial, Helvetice, sans-serif;	*/
+	font-family: Helvetice;
+	font-size: 15px;
+}
+.fromnhaptt{
+	font-size: 30px;
+	font-weight: bold;
+	font-family: Tomaho;
+}
+/*.col-md-3{
+	width: auto;
+}*/
+#them_truong{
+	float: right;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    background-color: #3c8dbc;
+    color: #ffffff;
+	}
+.hinhanh {
+border-radius:50%;
+-moz-border-radius:50%;
+-webkit-border-radius:50%;
+}
+.dangxuat{
+	color: black;
+}
+
+
+
+.trangthaichoxuly{
+	background-color: #2196F3;
+	width: auto;
+	color: white;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-radius: 5%;
+}
+.trangthaidongy{
+	background-color: #2DA04E;
+	width: auto;
+	color: white;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-radius: 5%;
+}
+.trangthaidahuy{
+	background-color: #FF4045;
+	width: auto;
+	color: white;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-radius: 5%;
+}
+.trangthaiohienthi{
+	background-color: #222D32;
+	width: auto;
+	color: white;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-radius: 5%;
+}
+
+#hinhanhtrongban{
+	width: 40px;
+	height: 50px;
+}
+#testmautable{
+	background-color: ;
+	width: auto;
+}
+.sanphamtable{
+	background-color: #2DA04E;
+	width: auto;
+	color: white;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-radius: 5%;
+}
+
+
+.rating1 {
+    direction:ltr;
+}
+.starRating:not(old) {
+    display: inline-block;
+    height: 18px;
+    width:100px;
+    overflow: hidden;
+}
+
+.starRating:not(old) > input{
+  margin-right :-26%;
+  opacity      : 0;
+}
+
+.starRating:not(old) > label {
+    float: right;
+    background: url(http://localhost:8080/web/images/star1.png);
+    background-size: contain;
+    margin-right: 2px;
+}
+
+.starRating:not(old) > label:before{
+  content         : '';
+  display         : block;
+  width           : 18px;
+  height          : 18px;
+  background      : url(http://localhost:8080/web/images/star22.png);
+  background-size : contain;
+  opacity         : 0;
+  transition      : opacity 0.2s linear;
+}
+
+.starRating:not(old) > label:hover:before,
+.starRating:not(old) > label:hover ~ label:before,
+.starRating:not(:hover) > :checked ~ label:before{
+  opacity : 1;
+}
+
+.menuloaisp1{
+	float: right;
+}
+.menuloaisp{
+	width: 300px;
+}
+#menuloaisp ul{
+	list-style-type: none;
+	background: #1f568B;
+	text-align: center;
+	overflow: hidden;
+}
+#menuloaisp ul li{
+	color: #f1f1f1;
+	display: inline-table;
+/*	float: left;*/
+    width: 120px;
+    height: 40px;
+	line-height: 40px;
+}
+#menuloaisp ul li a{
+	color: #f1f1f1;
+	text-decoration: none;
+	display: block;
+}
+#menuloaisp ul li a:hover{
+	background: #f1f1f1;
+	color: #333;
+}
+#menuloaisp ul li > .sub-menu1{
+	display: none;
+}
+#menuloaisp ul li:hover .sub-menu1{
+	display: block;
+}

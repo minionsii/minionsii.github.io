@@ -1,0 +1,12 @@
+body{
+	font-size: 15px;
+}
+.bg-dark{
+	background-color: #2b4476 !important;
+}
+.navbar-brand{
+	font-size: 30px;
+}
+.navbar {
+	height: 57px;
+}
